@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="comandaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Acesso">
+    <Key>
+      <PropertyRef Name="idAcesso" />
+    </Key>
+    <Property Name="idAcesso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descricao" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Comanda">
+    <Key>
+      <PropertyRef Name="idComanda" />
+    </Key>
+    <Property Name="idComanda" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="total" Type="float" Nullable="false" />
+    <Property Name="data" Type="datetime" Nullable="false" />
+    <Property Name="idPedido" Type="int" Nullable="false" />
+    <Property Name="idPessoa" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pedido">
+    <Key>
+      <PropertyRef Name="idPedido" />
+    </Key>
+    <Property Name="idPedido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="flgEncerramento" Type="tinyint" />
+    <Property Name="quantidade" Type="int" Nullable="false" />
+    <Property Name="numeroComanda" Type="int" Nullable="false" />
+    <Property Name="idProduto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pessoa">
+    <Key>
+      <PropertyRef Name="idPessoa" />
+    </Key>
+    <Property Name="idPessoa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nome" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="cpf" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="telefone" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="endereco" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="cidade" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="senha" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="idAcesso" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="idProduto" />
+    </Key>
+    <Property Name="idProduto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="produto" Type="nvarchar" MaxLength="100" />
+    <Property Name="quantidade" Type="int" />
+    <Property Name="valor" Type="float" />
+  </EntityType>
+  <Association Name="FK__Comanda__idPedid__4222D4EF">
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="1" />
+    <End Role="Comanda" Type="Self.Comanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedido">
+        <PropertyRef Name="idPedido" />
+      </Principal>
+      <Dependent Role="Comanda">
+        <PropertyRef Name="idPedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comanda__idPesso__412EB0B6">
+    <End Role="Pessoa" Type="Self.Pessoa" Multiplicity="1" />
+    <End Role="Comanda" Type="Self.Comanda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pessoa">
+        <PropertyRef Name="idPessoa" />
+      </Principal>
+      <Dependent Role="Comanda">
+        <PropertyRef Name="idPessoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pedido__idProdut__3E52440B">
+    <End Role="Produto" Type="Self.Produto" Multiplicity="1" />
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="idProduto" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="idProduto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Pessoa__idAcesso__398D8EEE">
+    <End Role="Acesso" Type="Self.Acesso" Multiplicity="1" />
+    <End Role="Pessoa" Type="Self.Pessoa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Acesso">
+        <PropertyRef Name="idAcesso" />
+      </Principal>
+      <Dependent Role="Pessoa">
+        <PropertyRef Name="idAcesso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="comandaModelStoreContainer">
+    <EntitySet Name="Acesso" EntityType="Self.Acesso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Comanda" EntityType="Self.Comanda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pedido" EntityType="Self.Pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pessoa" EntityType="Self.Pessoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Comanda__idPedid__4222D4EF" Association="Self.FK__Comanda__idPedid__4222D4EF">
+      <End Role="Pedido" EntitySet="Pedido" />
+      <End Role="Comanda" EntitySet="Comanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comanda__idPesso__412EB0B6" Association="Self.FK__Comanda__idPesso__412EB0B6">
+      <End Role="Pessoa" EntitySet="Pessoa" />
+      <End Role="Comanda" EntitySet="Comanda" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pedido__idProdut__3E52440B" Association="Self.FK__Pedido__idProdut__3E52440B">
+      <End Role="Produto" EntitySet="Produto" />
+      <End Role="Pedido" EntitySet="Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pessoa__idAcesso__398D8EEE" Association="Self.FK__Pessoa__idAcesso__398D8EEE">
+      <End Role="Acesso" EntitySet="Acesso" />
+      <End Role="Pessoa" EntitySet="Pessoa" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

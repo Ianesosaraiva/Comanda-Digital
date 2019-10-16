@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="comandaModel1StoreContainer" CdmEntityContainer="comandaEntities1">
+    <EntitySetMapping Name="Acesso">
+      <EntityTypeMapping TypeName="comandaModel1.Acesso">
+        <MappingFragment StoreEntitySet="Acesso">
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="idAcesso" ColumnName="idAcesso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comanda">
+      <EntityTypeMapping TypeName="comandaModel1.Comanda">
+        <MappingFragment StoreEntitySet="Comanda">
+          <ScalarProperty Name="idPessoa" ColumnName="idPessoa" />
+          <ScalarProperty Name="idNumeroComanda" ColumnName="idNumeroComanda" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="flgEncerramento" ColumnName="flgEncerramento" />
+          <ScalarProperty Name="idComanda" ColumnName="idComanda" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pedido">
+      <EntityTypeMapping TypeName="comandaModel1.Pedido">
+        <MappingFragment StoreEntitySet="Pedido">
+          <ScalarProperty Name="idProduto" ColumnName="idProduto" />
+          <ScalarProperty Name="numeroComanda" ColumnName="numeroComanda" />
+          <ScalarProperty Name="quantidade" ColumnName="quantidade" />
+          <ScalarProperty Name="idNumeroComanda" ColumnName="idNumeroComanda" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoa">
+      <EntityTypeMapping TypeName="comandaModel1.Pessoa">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="idAcesso" ColumnName="idAcesso" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="idPessoa" ColumnName="idPessoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produto">
+      <EntityTypeMapping TypeName="comandaModel1.Produto">
+        <MappingFragment StoreEntitySet="Produto">
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="produto1" ColumnName="produto" />
+          <ScalarProperty Name="idProduto" ColumnName="idProduto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

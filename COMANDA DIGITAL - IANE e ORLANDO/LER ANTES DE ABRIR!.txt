@@ -1,0 +1,18 @@
+Prezado professor, desde já pedimos desculpas pelo trastorno mas para que nosso programa rode 100% será necessário que o senhor crie o banco de dados localmente seguindo os passos detalhados abaixo:
+
+1. Abrir o SQL Server e criar o banco comanda;
+
+2. Criar uma nova consulta no banco comanda e inserir o script CRIAR BANCO que se encontra dentro da pasta do projeto;
+
+3. Pedimos que seja rodado o código de inserção de dados em algumas tabelas do banco, começando por Acesso, depois Pessoa, depois Produtos;
+
+4. Pedimos que seja aberto o projeto no Visual Studio e que o banco seja instanciado dentro do programa, sendo que durante a inserção é necessário que o ……….. do mesmo se chame comandaEntities;
+
+5. Após instanciar o banco e ter certeza que o ……. foi salvo como comandaEntities sinta-se a vontade para compilar o programa;
+
+
+Se o senhor não deu zero no nosso trabalho por nós termos feito  o mesmo com um banco local e chegou até aqui, muito obrigado. Mais uma vez perdão pelo trastorno,  e por favor seja misericordioso ao avaliar nosso projeto.
+
+
+Atenciosamente, 
+Iane, Orlando e Levi.

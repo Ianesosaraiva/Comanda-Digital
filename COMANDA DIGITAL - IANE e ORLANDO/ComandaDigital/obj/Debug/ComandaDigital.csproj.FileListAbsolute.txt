@@ -1,0 +1,86 @@
+C:\Users\orlando.melo\source\repos\ComandaDigital\bin\Debug\ComandaDigital.exe.config
+C:\Users\orlando.melo\source\repos\ComandaDigital\bin\Debug\ComandaDigital.exe
+C:\Users\orlando.melo\source\repos\ComandaDigital\bin\Debug\ComandaDigital.pdb
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.csprojAssemblyReference.cache
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.login.resources
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.Properties.Resources.resources
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.csproj.GenerateResource.cache
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.csproj.CoreCompileInputs.cache
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.exe
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.pdb
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.Abrir_Comanda.resources
+C:\Users\orlando.melo\source\repos\ComandaDigital\obj\Debug\ComandaDigital.Pedido.resources
+C:\Users\orlando.melo\source\repos\ComandaDigital\bin\Debug\DBComanda.mdf
+C:\Users\orlando.melo\source\repos\ComandaDigital\bin\Debug\DBComanda_log.ldf
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.Abrir_Comanda.resources
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.login.resources
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.Pedidos.resources
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.Properties.Resources.resources
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.exe
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.pdb
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.NovoUsuario.resources
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\ComandaDigital.exe.config
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\ComandaDigital.exe
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\ComandaDigital.pdb
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\EntityFramework.dll
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\EntityFramework.xml
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.csproj.CopyComplete
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.Menu.resources
+C:\Users\Administrador\Desktop\ComandaDigital - Copia\obj\Debug\ComandaDigital.NovoProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\ComandaDigital.exe.config
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\ComandaDigital.exe
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\ComandaDigital.pdb
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\EntityFramework.dll
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\EntityFramework.xml
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.csprojAssemblyReference.cache
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Abrir_Comanda.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Login.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Menu.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.NovoProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.NovoUsuario.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Pedidos.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Properties.Resources.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.csproj.GenerateResource.cache
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.csproj.CoreCompileInputs.cache
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.csproj.CopyComplete
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.exe
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.pdb
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.EditarProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.ListarProdutos.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Produtos___CRUD.RemoverProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Usuario___CRUD.EditarUsuario.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Usuario___CRUD.ListarUsuario.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\ComandaDigital - Copia\obj\Debug\ComandaDigital.Cupom.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\ComandaDigital.exe.config
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\ComandaDigital.exe
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\ComandaDigital.pdb
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\EntityFramework.dll
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\EntityFramework.xml
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.csprojAssemblyReference.cache
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Abrir_Comanda.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Cupom.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.EditarProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.ListarProdutos.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Login.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Menu.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.NovoProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Produtos___CRUD.RemoverProduto.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Usuario___CRUD.EditarUsuario.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Usuario___CRUD.ListarUsuario.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.NovoUsuario.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Pedidos.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.Properties.Resources.resources
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.csproj.GenerateResource.cache
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.csproj.CoreCompileInputs.cache
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.csproj.CopyComplete
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.exe
+C:\Users\ianes\OneDrive\Área de Trabalho\COMANDA DIGITAL - IANE, ORLANDO, LEVI\ComandaDigital\obj\Debug\ComandaDigital.pdb

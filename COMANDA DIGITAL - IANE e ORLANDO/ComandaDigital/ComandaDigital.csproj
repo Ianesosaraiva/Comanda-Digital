@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BC5780F-AB43-46BB-964B-9BC5A36E9022}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ComandaDigital</RootNamespace>
+    <AssemblyName>ComandaDigital</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbrirComanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbrirComanda.Designer.cs">
+      <DependentUpon>AbrirComanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Acesso.cs">
+      <DependentUpon>Banco1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Banco1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banco1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Banco1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banco1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Banco1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banco1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Comanda.cs">
+      <DependentUpon>Banco1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cupom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cupom.Designer.cs">
+      <DependentUpon>Cupom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido.cs">
+      <DependentUpon>Banco1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pessoa.cs">
+      <DependentUpon>Banco1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produto.cs">
+      <DependentUpon>Banco1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produtos - CRUD\EditarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produtos - CRUD\EditarProduto.Designer.cs">
+      <DependentUpon>EditarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produtos - CRUD\ListarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produtos - CRUD\ListarProdutos.Designer.cs">
+      <DependentUpon>ListarProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produtos - CRUD\NovoProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produtos - CRUD\NovoProduto.Designer.cs">
+      <DependentUpon>NovoProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produtos - CRUD\RemoverProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produtos - CRUD\RemoverProduto.Designer.cs">
+      <DependentUpon>RemoverProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario - CRUD\EditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario - CRUD\EditarUsuario.Designer.cs">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario - CRUD\ListarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario - CRUD\ListarUsuario.Designer.cs">
+      <DependentUpon>ListarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario - CRUD\NovoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuario - CRUD\NovoUsuario.Designer.cs">
+      <DependentUpon>NovoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedidos.Designer.cs">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AbrirComanda.resx">
+      <DependentUpon>AbrirComanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cupom.resx">
+      <DependentUpon>Cupom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produtos - CRUD\EditarProduto.resx">
+      <DependentUpon>EditarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produtos - CRUD\ListarProdutos.resx">
+      <DependentUpon>ListarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produtos - CRUD\NovoProduto.resx">
+      <DependentUpon>NovoProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produtos - CRUD\RemoverProduto.resx">
+      <DependentUpon>RemoverProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario - CRUD\EditarUsuario.resx">
+      <DependentUpon>EditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario - CRUD\ListarUsuario.resx">
+      <DependentUpon>ListarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuario - CRUD\NovoUsuario.resx">
+      <DependentUpon>NovoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedidos.resx">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Banco1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Banco1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Banco1.edmx.diagram">
+      <DependentUpon>Banco1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Acesso.datasource" />
+    <None Include="Properties\DataSources\Comanda.datasource" />
+    <None Include="Properties\DataSources\Pedido.datasource" />
+    <None Include="Properties\DataSources\Pessoa.datasource" />
+    <None Include="Properties\DataSources\Produto.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon\Phone-Icon.png" />
+    <None Include="Icon\Phonebook-icon - Copia.png" />
+    <None Include="Icon\padlock_77917.png" />
+    <None Include="Icon\manPC.ico.png" />
+    <None Include="Icon\LoginIconAppl.png" />
+    <None Include="Icon\login-icon.png" />
+    <None Include="Icon\login1.png" />
+    <None Include="Icon\login.png" />
+    <None Include="Icon\login %282%29.png" />
+    <None Include="Icon\login %281%29.png" />
+    <None Include="Icon\livros-em-png-queroimagem-ceiça-crispim %282%29.png" />
+    <None Include="Icon\kisspng-google-calendar-computer-icons-agenda-5ac93bdfc96a54.png" />
+    <None Include="Icon\kisspng-agenda-stock-photography-agenda-5abc69cce1a2b5.png" />
+    <None Include="Icon\key.png" />
+    <None Include="Icon\inbox-vector-icon-png_295004.jpg" />
+    <None Include="Icon\images.png" />
+    <None Include="Icon\icons8-seta-para-a-direita-64.png" />
+    <None Include="Icon\icons8-seta-esquerda-64.png" />
+    <None Include="Icon\icons8-selecionado-512.png" />
+    <None Include="Icon\icons8-relógio-512.png" />
+    <None Include="Icon\icons8-relógio-480.png" />
+    <None Include="Icon\icons8-refazer-64.png" />
+    <None Include="Icon\icons8-pergunte-96.png" />
+    <None Include="Icon\icons8-menos-calendário-96.png" />
+    <None Include="Icon\icons8-mais-calendário-96.png" />
+    <None Include="Icon\icons8-mais-512.png" />
+    <None Include="Icon\icons8-idade-96.png" />
+    <None Include="Icon\icons8-hoje-96.png" />
+    <None Include="Icon\icons8-guardar-todos-96.png" />
+    <None Include="Icon\icons8-excluir-512.png" />
+    <None Include="Icon\icons8-entrar-100.png" />
+    <None Include="Icon\icons8-desfazer-64.png" />
+    <None Include="Icon\icons8-desbloquear-512.png" />
+    <None Include="Icon\icons8-credenciais-do-usuário-96.png" />
+    <None Include="Icon\icons8-contatos-208.png" />
+    <None Include="Icon\icons8-comentários-480.png" />
+    <None Include="Icon\icons8-calendário-480.png" />
+    <None Include="Icon\icons8-caixa-de-selecção-seleccionada-2-512.png" />
+    <None Include="Icon\icons8-balão-de-fala-512.png" />
+    <None Include="Icon\icons8-adicionar-96.png" />
+    <None Include="Icon\iconfinder_Whatsapp_4550867.png" />
+    <None Include="Icon\iconfinder_Email_4550857.png" />
+    <None Include="Icon\iconfinder_Classmates_4550863.png" />
+    <None Include="Icon\icone-email.icon.png" />
+    <None Include="Icon\icone2-cursos.icon.png" />
+    <None Include="Icon\ico.ico.png" />
+    <None Include="Icon\Google_Contacts_logo.png" />
+    <None Include="Icon\fadba-logo.png" />
+    <None Include="Icon\f72b4f13a9cbe62091918796361fa997.png" />
+    <None Include="Icon\desktop_computer.png" />
+    <None Include="Icon\davi-santos-da-silva-marcilene_branco-0.png" />
+    <None Include="Icon\cursos-icone.png" />
+    <None Include="Icon\check-list.png" />
+    <None Include="Icon\certificate-flat.png" />
+    <None Include="Icon\cas-padlock-icon.png" />
+    <None Include="Icon\botao-login-hi.png" />
+    <None Include="Icon\assistencia-300x300.png" />
+    <None Include="Icon\agenda.png" />
+    <None Include="Icon\AddUsuario.png" />
+    <None Include="Icon\addNumeroComanda.png" />
+    <None Include="Icon\AbrirComanda.png" />
+    <None Include="Icon\55500571b8176366dd4298b925235cb2---cone-de-suporte-de-contato-3d-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banco1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Banco1.edmx</DependentUpon>
+      <LastGenOutput>Banco1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Banco1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Banco1.edmx</DependentUpon>
+      <LastGenOutput>Banco1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
